@@ -31,7 +31,7 @@ namespace MyBBS.Web
      
         protected void ButtonGuest_Click(object sender, System.EventArgs e)
         {
-           
+             
         }
     }
 }
