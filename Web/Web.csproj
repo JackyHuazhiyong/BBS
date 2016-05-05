@@ -161,6 +161,8 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\pagination.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\style.css" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -168,6 +170,12 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Login.aspx" />
+    <Content Include="Register.aspx" />
+    <Content Include="Scripts\circles.js" />
+    <Content Include="Scripts\easing.js" />
+    <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\move-top.js" />
     <Content Include="说明+data\BBS.sql" />
     <Content Include="说明+data\项目要求.txt" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
@@ -406,7 +414,15 @@
     <Compile Include="Index.aspx.designer.cs">
       <DependentUpon>Index.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
