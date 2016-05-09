@@ -133,6 +133,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="images\portfolio\thumb\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
@@ -162,7 +163,14 @@
     <Content Include="Content\pagination.css" />
     <Content Include="Content\Site.css" />
     <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\fallback.css" />
+    <Content Include="CSS\font-awesome.css" />
+    <Content Include="CSS\jquery-ui-1.8.16.custom.css" />
+    <Content Include="CSS\lightbox.min.css" />
+    <Content Include="CSS\loading.gif" />
+    <Content Include="CSS\slideshow.css" />
     <Content Include="CSS\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -170,14 +178,50 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\arrow-left-light.png" />
+    <Content Include="images\arrow-left.png" />
+    <Content Include="images\arrow-top-light.png" />
+    <Content Include="images\arrow-top.png" />
+    <Content Include="images\bg-black.png" />
+    <Content Include="images\closebutton.png" />
+    <Content Include="images\container-bg.png" />
+    <Content Include="images\left-arrow.png" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\map-bro.png" />
+    <Content Include="images\portfolio\big\1.jpg" />
+    <Content Include="images\portfolio\big\2.jpg" />
+    <Content Include="images\portfolio\big\3.jpg" />
+    <Content Include="images\portfolio\big\4.jpg" />
+    <Content Include="images\portfolio\big\5.jpg" />
+    <Content Include="images\portfolio\big\6.jpg" />
+    <Content Include="images\portfolio\big\7.jpg" />
+    <Content Include="images\portfolio\big\8.jpg" />
+    <Content Include="images\right-arrow.png" />
+    <Content Include="images\skills.png" />
     <Content Include="Login.aspx" />
     <Content Include="Register.aspx" />
     <Content Include="Scripts\circles.js" />
+    <Content Include="Scripts\custom.js" />
     <Content Include="Scripts\easing.js" />
+    <Content Include="Scripts\jquery.contact.js" />
+    <Content Include="Scripts\jquery.easing.min.js" />
+    <Content Include="Scripts\jquery.easypiechart.js" />
+    <Content Include="Scripts\jquery.gridrotator.js" />
+    <Content Include="Scripts\jquery.isotope.js" />
     <Content Include="Scripts\jquery.min.js" />
+    <Content Include="Scripts\jquery.placeholder.js" />
+    <Content Include="Scripts\jquery.ui.rlightbox.js" />
+    <Content Include="Scripts\jquery.ui.widget.min.js" />
+    <Content Include="Scripts\modernizr.custom.26633.js" />
     <Content Include="Scripts\move-top.js" />
+    <Content Include="Scripts\stickUp.js" />
     <Content Include="说明+data\BBS.sql" />
     <Content Include="说明+data\项目要求.txt" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Index1.aspx" />
     <Content Include="Index.aspx" />
